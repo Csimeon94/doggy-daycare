@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Required meta tags -->
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,6 +20,7 @@
       <button id="btnScrollToTop">
         <i class="material-icons">arrow_upward</i>
       </button>
+
       <div class="jumbotron jumbotron-fluid" id="alpha">
   <div class="container">
     <h1 class="display-3">CLIFF'S PET RESORT</h1>
@@ -173,5 +175,18 @@ We offer price breaks for additional fur babies.</p>
 </div>
   </div>
 </div>
+
+<script>
+  const btnScrollToTop = document.querySelector("btnScrollToTop");
+
+  btnScrollToTop.addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    })
+  });
+
+</script>
   </body>
 </html>
