@@ -1,0 +1,65 @@
+@font-face {
+  src: url(Dancing_Script/DancingScript-VariableFont_wght.ttf);
+  font-family: DancingScript;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+#alpha{
+  background-color:#a2d8eb;
+  text-align: center;
+  font-family: DancingScript;
+  padding-bottom: 250px;
+  padding-top: 200px;
+}
+
+svg{
+  margin-top: 90px;
+}
+
+#services{
+  text-align: center;
+  font-family: DancingScript;
+}
+
+h3{
+  font-family: DancingScript;
+
+}
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+#social{
+  width: 50px;
+  height: 50px;
+}
+#beta{
+  background-color: #6181a2;
+  text-align: center;
+  font-family: DancingScript;
+  color: white;
+}
+
+#table{
+  text-align: -webkit-center;
+}
+
+tr{
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+}
+
+p.price{
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+}
+
+nav{
+  text-align: center;
+}
