@@ -24,6 +24,24 @@
    background:#6181a2;
 }
 
+.carousel-item{
+  height: 32rem;
+  background:#777;
+  color: white;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+}
+
+#imageText{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 #alpha{
   background-color:#a2d8eb;
   text-align: center;
